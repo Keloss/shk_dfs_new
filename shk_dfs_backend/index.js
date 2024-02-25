@@ -28,7 +28,7 @@ const start = async () => {
     }
 }
 
-var pul = 'Application'
+var pul = ''
 const cur = path.resolve(__dirname, '../../../..')
 console.log(cur+ '\\Desktop\\практика')
 const Path = path.join(require('os').homedir(), `Desktop\\практика\\${pul}`);
