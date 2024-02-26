@@ -10,7 +10,7 @@ const getPath = observer(() => {
 
   const {paths} = useContext(Context)
   const [selectedLabelSection, setSelectedLabelSection] = useState("Выберите раздел");
-  const [selectedLabelSpk, setSelectedLabelSpk] = useState("Выберите подраздел");
+  const [selectedLabelSpk, setSelectedLabelSpk] = useState("Выберите подразделение");
   const home = "\\Gk.rosatrom.local\\shk_dfs"
   useEffect(() => {
     paths.setSpk([])

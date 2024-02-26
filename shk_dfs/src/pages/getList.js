@@ -10,7 +10,7 @@ const getList = observer(() => {
 
     const {paths} = useContext(Context)
 
-    const [selectedLabelSpk, setSelectedLabelSpk] = useState("Выберите подраздел");
+    const [selectedLabelSpk, setSelectedLabelSpk] = useState("Выберите подразделение");
 
     useEffect(() => {
         fetchsubSection().then(data => paths.setSubSection(data))
